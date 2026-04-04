@@ -1,10 +1,11 @@
-import WelcomeBanner from "./Compnents/WelcomeBanner";
+import UserProfileCard from "./Compnents/UserProfileCard";
+
 
 
 function App() {
   return (
     <div>
-<WelcomeBanner userName="Eshwar Rao"/>
+<UserProfileCard name = "Neha Sharma" profileImage = "profile.jpg" designation = "Frontend Developer"/>
 
     </div>
   );
