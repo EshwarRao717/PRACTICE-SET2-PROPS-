@@ -1,11 +1,12 @@
-import UserProfileCard from "./Compnents/UserProfileCard";
+import ProductPrice from "./Compnents/ProductPrice ";
+
 
 
 
 function App() {
   return (
     <div>
-<UserProfileCard name = "Neha Sharma" profileImage = "profile.jpg" designation = "Frontend Developer"/>
+<ProductPrice originalPrice = "1999" discountPrice = "1499"/>
 
     </div>
   );
