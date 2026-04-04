@@ -1,4 +1,5 @@
-import LoginMessage from "./Compnents/LoginMessage";
+import BlogPreview from "./Compnents/BlogPreview";
+
 
 
 
@@ -6,9 +7,7 @@ import LoginMessage from "./Compnents/LoginMessage";
 function App() {
   return (
     <div>
-
-<LoginMessage isLoggedIn = {true}/>
-<LoginMessage isLoggedIn = {false}/>
+<BlogPreview title = "Understanding React Props" author = "Admin" publishDate = "12 Aug 2025"/>
     </div>
   );
 }
