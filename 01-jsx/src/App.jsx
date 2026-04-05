@@ -1,13 +1,10 @@
-import WebsiteLayout from "./Compnents/WebsiteLayout";
+import ProductInfo from "./Compnents/ProductInfo";
 
 
 
 const App = () => {
   return (
-    <WebsiteLayout  
-      headerContent="My Website"
-      mainContent="Welcome to our services"
-      footerContent="© 2026 All Rights Reserved"/>
+    <ProductInfo name = "Bluetooth Speaker" price ="3499" inStock = {true}/>
   );
 };
 
