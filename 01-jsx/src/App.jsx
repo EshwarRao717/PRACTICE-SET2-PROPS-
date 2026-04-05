@@ -1,4 +1,5 @@
-import ServiceStatus from "./Compnents/ServiceStatus";
+import Tag from "./Compnents/Tag";
+
 
 
 
@@ -6,8 +7,7 @@ import ServiceStatus from "./Compnents/ServiceStatus";
 function App() {
   return (
     <div>
-<ServiceStatus isAvailable = {true}/>
-<ServiceStatus isAvailable = {false}/>
+<Tag label = "Trending" type = "highlight"/>
     </div>
   );
 }
