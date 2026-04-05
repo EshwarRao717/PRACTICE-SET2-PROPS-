@@ -1,14 +1,9 @@
-import ActionButton from "./Compnents/ActionButton";
-
-
-
-
-
+import AddressBox from "./Compnents/AddressBox";
 
 function App() {
   return (
     <div>
-<ActionButton text = "Hello You Have Text"/>
+<AddressBox city = "Mumbai" state = "Maharashtra" pincode = "400001"/>
     </div>
   );
 }
