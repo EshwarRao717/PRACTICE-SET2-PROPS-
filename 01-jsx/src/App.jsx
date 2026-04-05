@@ -1,4 +1,5 @@
-import BlogPreview from "./Compnents/BlogPreview";
+import ActionButton from "./Compnents/ActionButton";
+
 
 
 
@@ -7,7 +8,7 @@ import BlogPreview from "./Compnents/BlogPreview";
 function App() {
   return (
     <div>
-<BlogPreview title = "Understanding React Props" author = "Admin" publishDate = "12 Aug 2025"/>
+<ActionButton text = "Hello You Have Text"/>
     </div>
   );
 }
