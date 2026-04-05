@@ -1,10 +1,13 @@
-import NavbarMenu from "./Compnents/NavbarMenu";
+import ServiceStatus from "./Compnents/ServiceStatus";
+
+
 
 
 function App() {
   return (
     <div>
-<NavbarMenu links = {[" Home ", " About ", " Services ", " Contact "]}/>
+<ServiceStatus isAvailable = {true}/>
+<ServiceStatus isAvailable = {false}/>
     </div>
   );
 }
