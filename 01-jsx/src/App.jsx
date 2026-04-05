@@ -1,9 +1,10 @@
-import AddressBox from "./Compnents/AddressBox";
+import NavbarMenu from "./Compnents/NavbarMenu";
+
 
 function App() {
   return (
     <div>
-<AddressBox city = "Mumbai" state = "Maharashtra" pincode = "400001"/>
+<NavbarMenu links = {[" Home ", " About ", " Services ", " Contact "]}/>
     </div>
   );
 }
