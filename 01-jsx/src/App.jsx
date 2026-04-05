@@ -1,15 +1,14 @@
-import Tag from "./Compnents/Tag";
+import WebsiteLayout from "./Compnents/WebsiteLayout";
 
 
 
-
-
-function App() {
+const App = () => {
   return (
-    <div>
-<Tag label = "Trending" type = "highlight"/>
-    </div>
+    <WebsiteLayout  
+      headerContent="My Website"
+      mainContent="Welcome to our services"
+      footerContent="© 2026 All Rights Reserved"/>
   );
-}
+};
 
 export default App;
