@@ -1,11 +1,19 @@
-import ProductInfo from "./Compnents/ProductInfo";
+
+import ProductDetails from "./Compnents/ProductDetails";
 
 
+function App() {
+  const productData = {
+    name: "Wireless Mouse",
+    price: 799,
+    category: "Electronics"
+  };
 
-const App = () => {
   return (
-    <ProductInfo name = "Bluetooth Speaker" price ="3499" inStock = {true}/>
+    <div>
+    <ProductDetails product={productData}/>
+    </div>
   );
-};
+}
 
 export default App;
